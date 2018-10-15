@@ -1,4 +1,6 @@
 #!/bin/bash
+#sendEmail下载地址http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v1.56.tar.gz，
+#可执行文件放在/usr/local/bin/
 to=$1
 subject=$2
 body=$3
