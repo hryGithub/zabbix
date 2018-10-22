@@ -5,7 +5,7 @@ import smtplib
 from email.mime.text import MIMEText
 import sys
 
-# configure 
+#  configure 
 smtp_server = 'smtp.gmail.com:465'
 sslPort = 465
 mail_user = 'monitor@wex101.com'
