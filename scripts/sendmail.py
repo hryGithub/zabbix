@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 import sys
 
 #  configure 
-smtp_server = 'smtp.gmail.com:465'
+smtp_server = 'smtp.gmail.com'
 sslPort = 465
 mail_user = 'monitor@wex101.com'
 mail_pass = 'WeX101WeX'
@@ -16,7 +16,7 @@ def send_mail(to_list, subject, content):
     msg = MIMEText(content, 'plain', 'utf-8')
     msg['Subject'] = subject
     msg['From'] = mail_user
-    msg['to'] = to_list
+    msg['to'] = ','.join(to_list)
 
     try:
         # 普通连接
@@ -32,4 +32,4 @@ def send_mail(to_list, subject, content):
 
 
 if __name__ == "__main__":
-    send_mail(sys.argv[1], sys.argv[2], sys.argv[3])
+    send_mail(sys.argv[1].split(","), sys.argv[2], sys.argv[3])
