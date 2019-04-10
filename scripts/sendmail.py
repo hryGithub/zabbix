@@ -15,7 +15,7 @@ mail_pass = 'WeX101WeX'
 def send_mail(to_list, subject, content):
     msg = MIMEText(content, 'plain', 'utf-8')
     msg['Subject'] = subject
-    msg['From'] = mail_user
+    msg['From'] = "zabbix 监控报警平台" + "<" + mail_user + ">"
     msg['to'] = ','.join(to_list)
 
     try:
