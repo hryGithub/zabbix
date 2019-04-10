@@ -1,7 +1,0 @@
-Wed, 10 Apr 2019 14:42:44, connectionpool.py, DEBUG, Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
-Wed, 10 Apr 2019 14:42:44, connectionpool.py, DEBUG, https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww3aa1f0b45e17b71d&corpsecret=JHu8DYErPvHDC-Vxae47aQOCHVpSi0ct_V2XfNYAtCE HTTP/1.1" 200 277
-Wed, 10 Apr 2019 14:42:44, connectionpool.py, DEBUG, Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
-Wed, 10 Apr 2019 14:42:45, connectionpool.py, DEBUG, https://qyapi.weixin.qq.com:443 "POST /cgi-bin/message/send?access_token=8Q3pkOHRGENUQTzfhriZbLMc7lNyOHvflG1rHZnIism6SN3L_OF8fZFVlluK9Nv51YOLsPkq9ByqpT2vgYaMkmwxzHn1l7tov2BpOa6JkE5McO32sZNXjhfZIxLzgZNVi0XDd_Ls8Tiu_NphI9zZGMLe5bwG0-qHu9-qI_2d4QHcp2cgtQ4LzI-0nGJvVnbLrMeY36c9O_C1P23LllTwDQ HTTP/1.1" 200 45
-Wed, 10 Apr 2019 14:42:45, weixin.py, INFO, sendto:1;;subject:test;;message:test
-
-test
