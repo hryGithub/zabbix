@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # comment: zabbix微信报警
 
@@ -6,12 +6,12 @@ import requests
 import sys
 import json
 
-corpid = 'ww3aa1f0b45e17b71d'
-appsecret = 'JHu8DYErPvHDC-Vxae47aQOCHVpSi0ct_V2XfNYAtCE'
-agentid = 1000002
+corpid = ''  # 企业号标识
+appsecret = '' # 密钥
+agentid = 1000002   #应用id
+partyid = "1"   #部门id
 
-
-def alert(touser, subject, message, toparty=1):
+def alert(touser, subject, message, partyid=1):
     # 获取accesstoken
     token_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=' + corpid + '&corpsecret=' + appsecret
     req = requests.get(token_url)
@@ -24,7 +24,7 @@ def alert(touser, subject, message, toparty=1):
         
     params = {
         "touser": touser,
-        "toparty": toparty,
+        "toparty": partyid,
         "msgtype": "text",
         "agentid": agentid,
         "text": {
@@ -37,4 +37,4 @@ def alert(touser, subject, message, toparty=1):
 
 
 if __name__ == "__main__":
-    alert(sys.argv[1], sys.argv[2], sys.argv[3])
+    alert(sys.argv[1], sys.argv[2], sys.argv[3], partyid)
