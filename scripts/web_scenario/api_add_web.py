@@ -63,7 +63,7 @@ auth = login(ZABBIX_SERVER, USER, PASSWORD)
 hostid = gethostid(auth, HOSTNAME)
 applicationid = getapplicationid(auth, hostid)
 
-with open(os.path.join(BASE_DIR, "web_check.txt"), encoding='utf-8') as f:
+with open(os.path.join(BASE_DIR, "wealth_web_check.txt"), encoding='utf-8') as f:
     lines = f.readlines()
     for line in lines:
         tmp = line.split()

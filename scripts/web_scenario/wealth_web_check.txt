@@ -1,0 +1,35 @@
+wealth(privilege-api) soa.inner.local/privilege-api/ 200
+wealth(uni-audit) soa.inner.local/uni-audit/ 200
+wealth(uni-auth) soa.inner.local/uni-auth/ 200
+wealth(ues-ws) soa.inner.local/ues-ws/service 200
+wealth(ufs) soa.inner.local/ufs/ 200
+wealth(counter-api) soa.inner.local/counter-api/ 200
+wealth(mns-web) soa.inner.local/mns-web/_health_check 200
+wealth(smsgateway-ws) soa.inner.local/smsgateway-ws/service 200
+wealth(pbs) soa.inner.local/pbs/cxf-service/ 200
+wealth(pbs-bos) soa.inner.local/pbs-bos/cxf-service/ 200
+wealth(voucher) soa.inner.local/voucher 200
+wealth(acs) soa.inner.local/acs 200
+wealth(payment) soa.inner.local/payment/services 200
+wealth(payment-carryover) soa.inner.local/payment-carryover/services 200
+wealth(pfs-basis) soa.inner.local/pfs-basis/service 200
+wealth(pfs-manager) soa.inner.local/pfs-manager/service 200
+wealth(pfs-payment) soa.inner.local/pfs-payment/service 200
+wealth(fcw) soa.inner.local/fcw/server/CMB10101-VS.htm 200
+wealth(cmf) soa.inner.local/cmf/services 200
+wealth(notifychannel) soa.inner.local/notifychannel/services 200
+wealth(dpm-accounting ) soa.inner.local/dpm-accounting 200
+wealth(dpm-manager) soa.inner.local/dpm-manager 200
+wealth(ma-web) soa.inner.local/ma-web 200
+wealth(cert) soa.inner.local/cert/services 200
+wealth(pricerate) soa.inner.local/pricerate/test/hello 200
+wealth(bank-wealth) soa.inner.local/bank-wealth/services 200
+wealth(wag) soa.inner.local/wag 200
+wealth(assetOp) soa.inner.local/assetOp/login 200
+wealth(assetSOA) soa.inner.local/assetSOA/test/hello 200
+wealth(wealthRebate ) soa.inner.local/wealthRebate/test/hello 200
+wealth(msg-center) soa.inner.local/msg-center/services 200
+wealth(efs) soa.inner.local/efs 200
+wealth(wag-pc) soa.inner.local/wag-pc 200
+wealth(canal-client) soa.inner.local/canal-client/services 200
+wealth(masa) soa.inner.local/masa/test/hello 200

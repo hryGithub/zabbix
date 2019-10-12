@@ -5,7 +5,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 #print(os.path.join(BASE_DIR,"web_check.txt"))
-for line in open(os.path.join(BASE_DIR, "web_check.txt"), encoding='utf-8'):
+for line in open(os.path.join(BASE_DIR, "wealth_web_check.txt"), encoding='utf-8'):
     tmp = line.split()
     app = tmp[0]
     url = "http://" + tmp[1]
